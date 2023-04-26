@@ -1,8 +1,0 @@
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\bin\Debug\Lab4(7).exe.config
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\bin\Debug\Lab4(7).exe
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\bin\Debug\Lab4(7).pdb
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\obj\Debug\Lab4(7).csproj.AssemblyReference.cache
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\obj\Debug\Lab4(7).csproj.SuggestedBindingRedirects.cache
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\obj\Debug\Lab4(7).csproj.CoreCompileInputs.cache
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\obj\Debug\Lab4(7).exe
-C:\Users\danka\source\repos\Lab4(7)\Lab4(7)\obj\Debug\Lab4(7).pdb
