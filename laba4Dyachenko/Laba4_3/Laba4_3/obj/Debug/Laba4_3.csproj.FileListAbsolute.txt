@@ -1,8 +1,0 @@
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\obj\Debug\Laba4_3.csproj.AssemblyReference.cache
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\obj\Debug\Laba4_3.csproj.SuggestedBindingRedirects.cache
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\obj\Debug\Laba4_3.csproj.CoreCompileInputs.cache
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\bin\Debug\Laba4_3.exe.config
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\bin\Debug\Laba4_3.exe
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\bin\Debug\Laba4_3.pdb
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\obj\Debug\Laba4_3.exe
-C:\Users\ezmak\source\repos\Laba4_3\Laba4_3\obj\Debug\Laba4_3.pdb

@@ -1,8 +1,0 @@
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\bin\Debug\Лаба4_2.exe.config
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\bin\Debug\Лаба4_2.exe
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\bin\Debug\Лаба4_2.pdb
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\obj\Debug\Лаба4_2.csproj.AssemblyReference.cache
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\obj\Debug\Лаба4_2.csproj.SuggestedBindingRedirects.cache
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\obj\Debug\Лаба4_2.csproj.CoreCompileInputs.cache
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\obj\Debug\Лаба4_2.exe
-C:\Users\ezmak\source\repos\Лаба4_2\Лаба4_2\obj\Debug\Лаба4_2.pdb
