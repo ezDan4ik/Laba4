@@ -1,0 +1,15 @@
+C:\Users\ezmak\source\repos\LABA4\LABA4\bin\Debug\net6.0\LABA4.exe
+C:\Users\ezmak\source\repos\LABA4\LABA4\bin\Debug\net6.0\LABA4.deps.json
+C:\Users\ezmak\source\repos\LABA4\LABA4\bin\Debug\net6.0\LABA4.runtimeconfig.json
+C:\Users\ezmak\source\repos\LABA4\LABA4\bin\Debug\net6.0\LABA4.dll
+C:\Users\ezmak\source\repos\LABA4\LABA4\bin\Debug\net6.0\LABA4.pdb
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.csproj.AssemblyReference.cache
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.AssemblyInfoInputs.cache
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.AssemblyInfo.cs
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.csproj.CoreCompileInputs.cache
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.dll
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\refint\LABA4.dll
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.pdb
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\LABA4.genruntimeconfig.cache
+C:\Users\ezmak\source\repos\LABA4\LABA4\obj\Debug\net6.0\ref\LABA4.dll
