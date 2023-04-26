@@ -1,0 +1,8 @@
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\bin\Debug\Lab4(7.2).exe.config
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\bin\Debug\Lab4(7.2).exe
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\bin\Debug\Lab4(7.2).pdb
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\obj\Debug\Lab4(7.2).csproj.AssemblyReference.cache
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\obj\Debug\Lab4(7.2).csproj.SuggestedBindingRedirects.cache
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\obj\Debug\Lab4(7.2).csproj.CoreCompileInputs.cache
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\obj\Debug\Lab4(7.2).exe
+C:\Users\danka\source\repos\Lab4(7.2)\Lab4(7.2)\obj\Debug\Lab4(7.2).pdb
