@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laba4forgit
+namespace Laba4GIT
 {
     public partial class ezDan4ik
     {
