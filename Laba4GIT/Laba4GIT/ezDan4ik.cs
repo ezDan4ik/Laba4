@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Laba4GIT
 {
-    public partial class ezDan4ik
+    public partial class ezdan4ik
     {
 
         static int[][] FillArrayRandom(int[][] arr, int n)
