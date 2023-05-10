@@ -1,0 +1,8 @@
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\obj\Debug\Laba4GIT.csproj.AssemblyReference.cache
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\obj\Debug\Laba4GIT.csproj.SuggestedBindingRedirects.cache
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\obj\Debug\Laba4GIT.csproj.CoreCompileInputs.cache
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\bin\Debug\Laba4GIT.exe.config
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\bin\Debug\Laba4GIT.exe
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\bin\Debug\Laba4GIT.pdb
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\obj\Debug\Laba4GIT.exe
+C:\Users\ezmak\source\repos\Laba4GIT\Laba4GIT\obj\Debug\Laba4GIT.pdb
