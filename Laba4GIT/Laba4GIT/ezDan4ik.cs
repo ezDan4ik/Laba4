@@ -8,114 +8,36 @@ using System.Threading.Tasks;
 
 namespace Laba4GIT
 {
-    public partial class ezdan4ik
+    internal class ezdan4ik
     {
+        public Program program = new Program();
 
-        static int[][] FillArrayRandom(int[][] arr, int n)
+        private void Task1()
         {
-            for (int i = 0; i < n; i++)
+            Console.WriteLine("Вхідний масив:");
+            program.PrintArray();
+            int count = -1;
+            for (int i = program.array.Length - 1; i >= 0; i--)
             {
-                global::System.Console.Write("Введiть довжину :");
-                int k = int.Parse(Console.ReadLine());
-                arr[i] = new int[k];
-            }
-            Random rnd = new Random();
-            for (int i = 0; i < arr.Length; i++)
-            {
-                for (int j = 0; j < arr[i].Length; j++)
+                if (i % 2 == 0)
                 {
-                    arr[i][j] = rnd.Next(-10, 10);
-                }
-            }
-            return arr;
-        }
-
-        static int[][] FillArrayKeyBoard(int[][] arr, int n)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                arr[i] = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            }
-            Console.Clear();
-            return arr;
-        }
-
-        static void PrintArr(int[][] arr)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                for (int j = 0; j < arr[i].Length; j++)
-                {
-                    Console.Write(arr[i][j] + "\t");
-                }
-                Console.WriteLine();
-            }
-        }
-        static void Zapov(int[][] arr, int n)
-        {
-            int choice = -1;
-            while (choice != 0)
-            {
-                Console.WriteLine("Рандомне заповнення     - 1");
-                Console.WriteLine("Заповнення з клавiатури - 2");
-                choice = int.Parse(Console.ReadLine());
-                Console.Clear();
-                switch (choice)
-                {
-                    case 1:
-                        FillArrayRandom(arr, n);
-                        PrintArr(arr);
-                        Console.WriteLine();
-                        return;
-
-                    case 2:
-                        FillArrayKeyBoard(arr, n);
-                        PrintArr(arr);
-                        Console.WriteLine();
-                        return;
-                }
-            } 
-        }
-
-
-        static void Task1()
-        {
-            Console.Write("Введiть кiлькiсть рядкiв: ");
-            int n = int.Parse(Console.ReadLine());
-            int[][] arr = new int[n][];
-            Zapov(arr, n);
-            for (int i = 0; i < arr.Length; i++)
-            {
-                int[] innerArray = arr[i];
-                int newSize = innerArray.Length / 2 + innerArray.Length % 2;
-                int[] newArray = new int[newSize];
-                int newIndex = 0;
-                for (int j = 0; j < innerArray.Length; j += 2)
-                {
-                    if (j % 2 == 0)
+                    count++;
+                    for (int j = i; j < program.array.Length - 1; j++)
                     {
-                        newArray[newIndex] = innerArray[j];
-                        newIndex++;
+                        program.array[j] = program.array[j + 1];
                     }
+
                 }
-                arr[i] = newArray;
             }
-            PrintArr(arr);
-            Console.WriteLine();
-        
-
-
-    }
-        static void Task2()
+            Array.Resize(ref program.array, count);
+            Console.WriteLine("Масив після знищення елементів:");
+            program.PrintArray();
+            Console.ReadLine();
+        }
+        public void Task2()
         {
-            Console.Write("Введiть кiлькiсть рядкiв: ");
-            int n = int.Parse(Console.ReadLine());
-            int[][] arr = new int[n][];
-
-            Zapov(arr, n);
-
             int newLength = 0;
-            foreach (int[] row in arr)
+            foreach (int[] row in program.matrix)
             {
                 if (!row.Contains(0))
                 {
@@ -125,7 +47,7 @@ namespace Laba4GIT
 
             int[][] newMatrix = new int[newLength][];
             int i = 0;
-            foreach (int[] row in arr)
+            foreach (int[] row in program.matrix)
             {
                 if (!row.Contains(0))
                 {
@@ -133,8 +55,8 @@ namespace Laba4GIT
                     i++;
                 }
             }
-
-            PrintArr(newMatrix);
+            Console.WriteLine("");
+            program.PrintMatrix(newMatrix);
         }
         public void Main()
         {
@@ -148,11 +70,13 @@ namespace Laba4GIT
                 switch (choice)
                 {
                     case 1:
+                        program.Zapovarr();
                         Task1();
-                        break;
+                        return;
                     case 2:
+                        program.ZapovMatrix();
                         Task2();
-                        break;
+                        return;
                 }
             } while (choice != 0);
         }
