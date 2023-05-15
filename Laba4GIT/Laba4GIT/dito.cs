@@ -40,49 +40,45 @@ namespace Laba4GIT
             Console.WriteLine("Початковий масив:");
             program.PrintMatrix(program.matrix);
 
+            int maxRowIndex = 0;
+            int maxElement = int.MinValue;
 
-            
-                int maxRowIndex = 0;
-                int maxElement = int.MinValue;
-
-                for (int i = 0; i < program.matrix.Length; i++)
+            for (int i = 0; i < program.matrix.Length; i++)
+            {
+                int rowMax = program.matrix[i].Max();
+                if (rowMax >= maxElement)
                 {
-                    int rowMax = program.matrix[i].Max();
-                    if (rowMax >= maxElement)
-                    {
-                        maxElement = rowMax;
-                        maxRowIndex = i;
-                    }
+                    maxElement = rowMax;
+                    maxRowIndex = i;
                 }
+            }
 
-                int[][] newJaggedArray = new int[program.matrix.Length + 1][];
-                int j = 0;
-                for (int i = 0; i < newJaggedArray.Length; i++)
+            int[][] newJaggedArray = new int[program.matrix.Length + 1][];
+            int j = 0;
+            for (int i = 0; i < newJaggedArray.Length; i++)
+            {
+                if (i == maxRowIndex)
                 {
-                    if (i == maxRowIndex)
-                    {
-                        newJaggedArray[i] = new int[program.matrix[0].Length];
-                    }
-                    else
-                    {
-                        newJaggedArray[i] = program.matrix[j];
-                        j++;
-                    }
+                    newJaggedArray[i] = new int[program.matrix[0].Length];
+                    Console.Write($"Введіть елементи рядка, який потрібно вставити перед рядком з максимальним елементом: ");
+                    string inputRow = Console.ReadLine();
+                    string[] elements = inputRow.Split(' ');
+                    newJaggedArray[i] = Array.ConvertAll(elements, int.Parse);
                 }
-
-                Console.Write($"Введіть елементи рядка, який потрібно вставити перед рядком з максимальним елементом: ");
-                string[] elements = Console.ReadLine().Split(' ');
-                for (int i = 0; i < elements.Length; i++)
+                else
                 {
-                    newJaggedArray[maxRowIndex][i] = int.Parse(elements[i]);
+                    newJaggedArray[i] = program.matrix[j];
+                    j++;
                 }
-
+            }
 
             program.matrix = newJaggedArray;
 
             Console.WriteLine("Масив після додавання рядка перед рядком з максимальним елементом:");
             program.PrintMatrix(program.matrix);
         }
+
+
         public void Main()
         {
             int choice;
